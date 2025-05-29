@@ -1,0 +1,30 @@
+.sidebar-panel {
+  position: fixed;
+  left: 20px;
+  height: 200px;
+  top: 40%;
+  width: 60px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.tool-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #e0e0e0;
+  }
+}
