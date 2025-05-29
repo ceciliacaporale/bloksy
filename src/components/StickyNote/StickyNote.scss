@@ -1,0 +1,27 @@
+@import '../../styles/_variables';
+
+.sticky-note {
+  position: absolute;
+  width: 200px;
+  padding: 12px;
+  background: $yellow-green;
+  border-radius: 8px;
+  box-shadow: $card-shadow;
+
+  .close-button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: $text-color;
+  }
+
+  .note-content {
+    margin-top: 1rem;
+    outline: none;
+    word-wrap: break-word;
+  }
+}
