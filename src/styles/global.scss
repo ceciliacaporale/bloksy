@@ -1,11 +1,20 @@
 @import './reset';
 @import './variables';
-@import './mixins';
 
 body {
   font-family: $font-family;
   font-size: $base-font-size;
-  background-color: $background-color;
   color: $light-red;
   padding: 2rem;
+  background-color: $background-color;
+  background-image: radial-gradient(#ddd0d0 1px, transparent 1px); /* Pontinhos */
+  background-size: 20px 20px;
+
+
+  //caso mudar para o quadriculado, escolher futuramente
+  //   background-color: #ffffff;
+  // background-image: 
+  //   linear-gradient(#e0e0e0 1px, transparent 1px),
+  //   linear-gradient(90deg, #e0e0e0 1px, transparent 1px);
+  // background-size: 20px 20px; /* Tamanho do grid */
 }
