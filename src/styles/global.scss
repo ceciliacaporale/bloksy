@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #fbc531;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+h1 {
+  color: var(--primary-color);
+}
